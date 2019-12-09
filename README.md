@@ -4,6 +4,8 @@ Just collect the abandoned places in the world!
 
 And show on the Google Map!
 
+1.I.M. Cooling Tower in Charleroi，Belgium
+2.
 ___________________________
 
 Ond day one place if free. Thanks!
