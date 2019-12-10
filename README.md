@@ -7,6 +7,9 @@ And show on the Google Map!
 1.I.M. Cooling Tower in Charleroi,Belgium
 
 2.Hashima in Nagasaki,Japan
+
+3.Lake Dolores Water park	in CA.,America
+
 ___________________________
 
 Ond day one place if free. Thanks!
