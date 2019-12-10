@@ -11,9 +11,19 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -30,19 +40,9 @@
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -74,6 +74,7 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>4.381322390122142,50.39484455423332,0</coordinates>
@@ -81,6 +82,8 @@
 		</Placemark>
 		<Placemark>
 			<name>2.Hashima</name>
+			<description>Precise location
+</description>
 			<LookAt>
 				<longitude>129.7463473476408</longitude>
 				<latitude>32.62574248126574</latitude>
@@ -94,6 +97,24 @@
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>129.7382213270483,32.62755599789368,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.Lake Dolores Water park
+</name>
+			<LookAt>
+				<longitude>-116.6861926394092</longitude>
+				<latitude>34.95100911869589</latitude>
+				<altitude>0</altitude>
+				<heading>-2.308401186644508</heading>
+				<tilt>27.2935003777775</tilt>
+				<range>3337.249244764897</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.687157291141,34.94801461996505,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
